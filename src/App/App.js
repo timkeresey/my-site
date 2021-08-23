@@ -1,10 +1,21 @@
 
 import './App.scss';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     MY SITE
+    <div className="container">
+      <header className="header">
+        HEADER
+      </header>
+      <div className="hero">
+        <div className="hero__text">
+
+        </div>
+
+      </div>
+      <footer className="footer">
+        FOOTER
+      </footer>
     </div>
   );
 }
