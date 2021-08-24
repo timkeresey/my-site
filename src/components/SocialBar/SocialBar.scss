@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+
+.social-bar {
+    grid-row: 2 / 3;
+    border-left: solid;
+    border-width: 2px;
+    border-color: $color-lava;
+    width: 5.2rem;
+    transform: translateX(-2px);
+}
