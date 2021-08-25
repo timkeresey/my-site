@@ -7,4 +7,24 @@
     border-color: $color-lava;
     width: 5.2rem;
     transform: translateX(-2px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.github {
+    margin-bottom: 1rem;
+
+    &__icon {
+        width: 2.5rem;
+    }
+}
+
+.linkedin {
+    margin-top: 1rem;
+
+    &__icon {
+        width: 2.5rem;
+    }
 }
