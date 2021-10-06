@@ -26,7 +26,7 @@ const App = () => {
         <Menu />
       </div>
       <div className="social-container">
-      <SocialBar />
+        <SocialBar />
       </div>
       <div className="about">
         

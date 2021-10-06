@@ -6,7 +6,9 @@ const Menu = () => {
     
     return (
         <div className="menu">
-            <img src={menu} alt="menu icon" className="menu__icon" />
+            <div className="menu__icon-container">
+                <img src={menu} alt="menu icon" className="menu__icon" />
+            </div>
         </div>
     )
 }
